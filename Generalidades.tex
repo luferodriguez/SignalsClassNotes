@@ -1,1 +1,23 @@
 \chapter{Generalidades y definiciones asociadas a las señales}
+
+\section{¿Qué es una señal?}
+
+Una señal es una función matemática que representa una cantidad física. La voz, las imágenes, las comunicaciones a través de internet son ejemplos comunes de señales en nuestro entorno. Lo que caracteriza una señal es que, en general, transporta información del fenómeno físico al cual se encuentra asociada.\\
+
+Los latidos del corazón, que pueden ser capturados mediante un electrocardiograma, permiten a un doctor extraer información sobre la salud de su paciente. Los pronósticos del clima se basan en la información que se captura por medio de mediciones de temperatura, presión y dirección del viento.\\
+
+Formalmente, una señal es una función de una o más variables, que transporta información acerca de la naturaleza de un fenómeno físico. Cuando la señal depende únicamente de una variable se conoce como \textit{unidimensional}, como las señales de voz, en las cuales la amplitud depende únicamente del tiempo; cuando depende de dos o más variables, se conocen como \textit{multidimensionales}, como las imágenes, en las cuales la información se almacena en dos coordenadas.
+
+\section{¿Qué es un sistema?}
+
+Un sistema se puede definir como una entidad que manipula una o más señales, desempeña una función y genera nuevas señales.\\
+
+Considere el sistema que se muestra en la Figura \ref{fig1}. Los impulsos eléctricos generados en el cerebro del emisor actúan como una entrada para el aparato fonador, generando como salida una señal de voz. Esta señal viaja por el medio de transmisión (aire, fibra óptica, entre otras), alcanzando el sistema auditivo del receptor. En este caso, la señal de voz que fue una salida del aparato fonador del emisor se convierte en una entrada para el sistema auditivo del receptor, el cual convierte la señal de voz en impulsos eléctricos que serán procesados en el cerebro del receptor.\\
+
+Los sistemas pueden presentar únicas o múltiples entradas y salidas, los cuales se clasifican así:
+\begin{itemize}
+\item Sistemas de única entrada y única salida (SISO - Single Input Single Output)
+\item Sistemas de única entrada y múltiples salidas (SIMO - Single Input Multiple Output)
+\item Sistemas de múltiples entradas y única salida (MISO - Multiple Input Single Output)
+\item Sistemas de múltiples entradas y múltiples salidas (MIMO - Multiple Input Multiple Output)
+\end{itemize}
